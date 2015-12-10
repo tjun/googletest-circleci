@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - cd extsrc/gtest-1.7.0/; mkdir build; cd build; cmake ..; make
+    - cd extsrc/gtest-1.7.0/googletest/; mkdir build; cd build; cmake ..; make
   override:
     - cd make; make; make test
 test:
