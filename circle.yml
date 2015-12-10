@@ -6,3 +6,7 @@ dependencies:
 test:
   override:
     - cd bin; ./gtest_myint
+checkout:
+  post:
+    - git submodule init
+    - git submodule update
