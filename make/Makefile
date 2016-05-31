@@ -4,7 +4,7 @@ TEST_DIR=../test
 LIB_DIR=../lib
 BIN_DIR=../bin
 OBJ_DIR=./obj
-GTEST_DIR=../extsrc/gtest-1.7.0
+GTEST_DIR=../extsrc/gtest-1.7.0/googletest
 
 INCS += -I$(INC_DIR)
 
