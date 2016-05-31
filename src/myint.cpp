@@ -11,5 +11,5 @@ bool MyInt::isOdd()
 
 bool MyInt::isEven()
 {
-  return isOdd();
+  return !isOdd();
 }
