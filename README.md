@@ -1,13 +1,23 @@
 # googletest-circleci
 [![Circle CI](https://circleci.com/gh/tjun/googletest-circleci.svg?style=svg)](https://circleci.com/gh/tjun/googletest-circleci)
 
-sample code of googletest on Circle CI
+
+This repo shows how to test C++ code with googletest on Circle CI.
+
+[google/googletest: Google Test](https://github.com/google/googletest)
 
 ## Test C++ code on Circle CI
 
 see circle.yml. you can see how to run gtest on circle ci.
 
 ## Manual test with google-test
+
+### get gtest from repo.
+
+```
+git submodule init
+git submodule update
+```
 
 ### Build gtest
 
@@ -42,4 +52,3 @@ make test
 cd bin
 ./gtest_myint
 ```
-
